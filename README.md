@@ -13,7 +13,7 @@
 
 **E-Galaxy** is a global e-commerce company specializing in electronics products like laptops, smartphones, headphones, and accessories from leading brands like **Apple**, **Samsung**, **Lenovo**, and **Bose**. Founded in 2018, the company operates through web and mobile platforms.
 
-This project performs a comprehensive analysis of **sales data from 2019 to 2022**, covering ~88K customers and ~93K transactions. The goal is to evaluate business performance across revenue, orders, product profitability, refunds, loyalty programs, and regional demand, then deliver **actionable insights** to support cross-functional teams (Sales, Marketing, Operations, Inventory, and Product).
+This project performs a comprehensive analysis of **sales data from 2019 to 2022**, covering ~88K customers and ~93K transactions. The goal is to evaluate business performance across revenue, orders, product profitability, refunds, loyalty programs, and regional demand and finally deliver **actionable insights** to support cross-functional teams (Sales, Marketing, Operations, Inventory, and Product).
 
 <details>
 <summary> Data & Tech Info </summary>
@@ -66,17 +66,32 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate.
 </p>
 
-**Fig. 1** shows sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased num of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
+**Fig. 1** shows monthly revenue and order dynamics where sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased num of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
+
+
+<p align="center">
+  <img src="images/customertrend.png" alt="Revenue Trends" width="800" height="600">
+</p>
+
+<p style="text-align: justify;">
+  <b>Fig. 2. </b> Monthly  Customer  Trends. The green and orange color shows the customers with and without loyalty membership respectively. Grey Shaded area shows year 2020 with peaked Non-Loyalty customers and increase in the Loyalty membership numbers.  
+</p>
+
+
+**Fig. 2** shows monthly customer trends segmented by loyalty membership status. Non-Loyalty customers were the primary drivers of growth between 2019 and 2021 with  a sharp surge in non-loyalty customers that peaked in May 2020. 
+
+Since 2020, there is a notable shift to loyalty membership. Loyalty customers have increased significantly throughout 2020, eventually surpassing non-loyalty customers by the end of the year and  peaked in Feb 2021. This indicates successful conversion and retention. Both customer segments have stabilized in 2021 suggesting a plateau in customer expansion and engagement. However, beginning in April 2022, both loyalty and non-loyalty customers count  have sharply declined mirroring drop in orders and revenue (Fig. 1). This implies a contraction in the whole customer base rather than an isolated segment issue.
 
 **Key Insights**
 - **Revenue is primarily volume driven**. Changes in revenue closely tracks changes in order volume rather than AOV.
 - **AOV remained relatively stable** within a narrow band of **$217-$320** contributing minimally to revenue volatility.
-- **Structural demand decline**. The sharp drop in 2022 orders suggests challenges in **customer acquisition, retention, or purchase frequency**, not pricing.
 - **Post-peak normalization** Demand patterns indicate a reversion following pandemic-driven boom.
+- **Customer shifted toward loyalty memberships** post 2020, reflecting improved retention and membership adoption.
+- **Sharp drop in 2022 orders is structural** with reductions across both customer segments singaling deeper demand challenges. 
 - **Further deep analysis required**
 
 **Recommendations**
-- **Boost AOV** through bundling, upselling, and pricing optimization strategies
-- **Rebuild demand** by strenghtening customer acquisition and retention initiatives
-- **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product and marketing strategy
-- **Deep-dive analysis** by segemnting customers and channels to identify specific drivers of decline
+- **Increase AOV** through bundling, upselling, and pricing optimization strategies
+- **Rebuild Customer demand** by strenghtening customer acquisition and retention programs, particularly within the loyalty segment.
+- **Analyze behaviour of loyalty members** to identify opportunities for increasing purchase frequency and lifetime value
+- **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy
