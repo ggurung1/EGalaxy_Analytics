@@ -53,7 +53,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
 </p>
 <p align="center";>
-  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="400" height="300">
+  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="800" height="600">
 </p> 
 
 **Table 1** shows sales revenue grew by **165%** with **102% increase in orders from 2019 to 2020**, driven by Covid-19 pandemic related shifts in consumer behavior, including increased e-commerce activity and work from home trends. In **2021**, order volume continued to rise by **6%** but average order value decline that led to **10% drop in revenue** signalling a shift toward lower value purchases. Revenue has steadily declined from **2020 to 2022**. This downward trend has accelerated between **2021 and 2022** with **orders decreasing by 38%, revenue falling by 44%** and **Avg Order Value (AOV) dropping by 9%** highlighting weakening demand and reduced customer engagement.
