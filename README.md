@@ -48,16 +48,17 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 
 
 ## Executive Summary
+### Sales Performance Overview (2019-2022)
 <p style="text-align: justify;">
 	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
 </p>
-<p align="center"; background-color: #f2f2f2; padding: 15px;>
-  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="600" height="900">
+<p align="center";>
+  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="600" height="1200">
 </p> 
 
-Revenue grew by **165%** with **100% increase in orders from 2019 to 2020**, driven by Covid-19 pandemic related shifts in consumer behavior, including increased e-commerce activity and work from home trends. In **2021**, order volume continued to rise by **6%** but average order value decline that led to **10% drop in revenue** signalling a shift toward lower value purchases. Revenue has steadily declined from **2020 to 2022**. This downward trend has accelerated between **2021 and 2022** with **orders decreasing by 38%, revenue falling by 44%** and **AOV dropping by 10%** highlighting weakening demand and reduced customer engagement.
+**Table 1** shows sales revenue grew by **165%** with **102% increase in orders from 2019 to 2020**, driven by Covid-19 pandemic related shifts in consumer behavior, including increased e-commerce activity and work from home trends. In **2021**, order volume continued to rise by **6%** but average order value decline that led to **10% drop in revenue** signalling a shift toward lower value purchases. Revenue has steadily declined from **2020 to 2022**. This downward trend has accelerated between **2021 and 2022** with **orders decreasing by 38%, revenue falling by 44%** and **AOV dropping by 9%** highlighting weakening demand and reduced customer engagement.
 
-<p align="center"; background-color: #f2f2f2; padding: 15px;>
+<p align="center">
   <img src="images/RevenueTrends.png" alt="Revenue Trends" width="800" height="600">
 </p>
 
@@ -65,14 +66,17 @@ Revenue grew by **165%** with **100% increase in orders from 2019 to 2020**, dri
 	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate.
 </p>
 
-Peak Sales Occured in **May 2020**, when monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce boom.
+**Fig. 1** shows sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased num of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
 
 **Key Insights**
-- **Revenue is primarily volume driven**. Changes in revenue closely follows fluctuations in order volume rather than AOV.
-- **AOV remained relatively stable** ranging from **$217 to $320**. This reflects no significant contribution to revenue volatility.
-- **Demand decline in 2022 is structrural**. The sharp drop in order suggests challenges in **customer acquisition, retention, or purchase frequency**, rather than pricing issues alone.
+- **Revenue is primarily volume driven**. Changes in revenue closely tracks changes in order volume rather than AOV.
+- **AOV remained relatively stable** within a narrow band of **$217-$320** contributing minimally to revenue volatility.
+- **Structural demand decline**. The sharp drop in 2022 orders suggests challenges in **customer acquisition, retention, or purchase frequency**, not pricing.
+- **Post-peak normalization** Demand patterns indicate a reversion following pandemic-driven boom.
+- **Further deep analysis required**
 
 **Recommendations**
-- **Boost AOV** through pricing optimization, product bundling, and upselling strategies
-- **Rebuild demand** by investing in customer acquisition and retention initiatives
-- **Investigate behavioral shifts** post pandemic to realign product offerings with current consumer preferences.
+- **Boost AOV** through bundling, upselling, and pricing optimization strategies
+- **Rebuild demand** by strenghtening customer acquisition and retention initiatives
+- **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product and marketing strategy
+- **Deep-dive analysis** by segemnting customers and channels to identify specific drivers of decline
