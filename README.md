@@ -43,40 +43,45 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 
 </details>
 
-
-[**View Tableau Dashboard**](https://public.tableau.com/views/E-Galaxy/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[**View Tableau Dashboard**](https://public.tableau.com/views/E-Galaxy/ExecutiveSummary?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ## Executive Summary
 ### Sales Performance Overview (2019-2022)
-<p style="text-align: justify;">
-	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
-</p>
-<p align="center";>
-  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="800" height="600">
-</p> 
+>
+><p style="text-align: justify;">
+>	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
+></p>
+><p align="center";>
+>  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="800" height="600">
+></p> 
+>
 
 **Table 1** shows sales revenue grew by **165%** with **102% increase in orders from 2019 to 2020**, driven by Covid-19 pandemic related shifts in consumer behavior, including increased e-commerce activity and work from home trends. In **2021**, order volume continued to rise by **6%** but average order value decline that led to **10% drop in revenue** signalling a shift toward lower value purchases. Revenue has steadily declined from **2020 to 2022**. This downward trend has accelerated between **2021 and 2022** with **orders decreasing by 38%, revenue falling by 44%** and **Avg Order Value (AOV) dropping by 9%** highlighting weakening demand and reduced customer engagement.
 
-<p align="center">
-  <img src="images/RevenueTrends.png" alt="Revenue Trends" width="800" height="600">
-</p>
-
-<p style="text-align: justify;">
-	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
-</p>
+>
+><p align="center">
+>  <img src="images/revenuetrend.png" alt="Revenue Trends" width="800" height="600">
+></p>
+>
+><p style="text-align: justify;">
+>	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
+></p>
+>
 
 **Fig. 1** shows monthly revenue and order dynamics where sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased num of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
 
+>
+><p align="center">
+>  <img src="images/customertrend.png" alt="Customer Trends" width="800" height="600">
+></p>
+>
 
-<p align="center">
-  <img src="images/customertrend.png" alt="Revenue Trends" width="800" height="600">
-</p>
-
-<p style="text-align: justify;">
-  <b>Fig. 2. </b> Monthly  Customer  Trends by loyalty status. Green represents loyalty members and orange represents non-loyalty customers. The grey shaded area highlights 2020 during which non-Loyalty customers peaked while loyalty membership increased significantly. 
-</p>
-
+>
+><p "text-align: justify;">
+>  <b>Fig. 2. </b> Monthly  Customer  Trends by loyalty status. Green represents loyalty members and orange represents non-loyalty customers. The grey shaded area highlights 2020 during which non-Loyalty customers peaked while loyalty membership increased significantly. 
+></p>
+>
 
 **Fig. 2** shows monthly customer trends segmented by loyalty status. Non-Loyalty customers were the primary drivers of growth between 2019 and 2021 with  a sharp surge in non-loyalty customers that peaked in May 2020. 
 
@@ -85,7 +90,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 **Key Insights**
 - **Revenue is primarily volume driven**. Changes in revenue closely tracks changes in order volume rather than AOV.
 - **AOV remained relatively stable** within a narrow band of **$217-$320** contributing minimally to revenue volatility.
-- **Post-peak normalization** Demand patterns indicate a reversion following pandemic-driven boom.
+- **Post-peak normalization** as demand patterns indicate a reversion following pandemic-driven boom.
 - **Customer shifted toward loyalty memberships** post 2020, reflecting improved retention and membership adoption.
 - **Sharp drop in 2022 orders is structural** with reductions across both customer segments singaling deeper demand challenges. 
 - **Further deep analysis required**
@@ -95,3 +100,28 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 - **Rebuild Customer demand** by strenghtening customer acquisition and retention programs, particularly within the loyalty segment.
 - **Analyze behaviour of loyalty members** to identify opportunities for increasing purchase frequency and lifetime value
 - **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy
+
+## Deeper Insights
+### Product Performance
+
+
+> <table>
+>   <tr>
+>     <td align="center">
+>       <img src="images/producttrend.png" width="100%"><br>
+>     </td>
+>     <td align="center">
+>       <img src="images/productpareto.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td>
+>       <b>Fig. 3a.</b> Monthly revenue trends segmented by product categories. Among the eight products, four consistently drive the majority of revenue over the observed period.
+>     </td>
+>     <td>
+>       <b>Fig. 3b.</b> Product revenue contribution using Pareto analysis. The grey reference line represents the 80% cumulative revenue threshold, highlighting that the top four products contribute approximately 85% of total revenue.
+>     </td>
+>   </tr>
+> </table>
+
+
