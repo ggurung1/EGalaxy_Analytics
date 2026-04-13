@@ -102,7 +102,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, **uncover inefficiencies**, and **provide data driven recommendations**.
 
 <details>
-<summary> Product Analysis</summary>
+<summary> Click for details and figures</summary>
 
 >
 > <table width="100%">
