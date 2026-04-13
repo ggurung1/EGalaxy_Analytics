@@ -41,38 +41,42 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 
 ## Executive Summary
 ### Sales Performance Overview (2019-2022)
+
 >
-><p>
+><table>
+><tr>
 >	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
-></p>
-><p align="center";>
+></tr>
+><tr align="center";>
 >  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="800" height="600">
-></p> 
+></tr>
+></table>
 >
 
 **Table 1** shows sales revenue grew by **165%** with **102% increase in orders from 2019 to 2020**, driven by Covid-19 pandemic related shifts in consumer behavior, including increased e-commerce activity and work from home trends. In **2021**, order volume continued to rise by **6%** but average order value decline that led to **10% drop in revenue** signalling a shift toward lower value purchases. Revenue has steadily declined from **2020 to 2022**. This downward trend has accelerated between **2021 and 2022** with **orders decreasing by 38%, revenue falling by 44%** and **Avg Order Value (AOV) dropping by 9%** highlighting weakening demand and reduced customer engagement.
 
 >
-><p align="center">
+><table>
+><tr align="center">
 >  <img src="images/revenuetrend.png" alt="Revenue Trends" width="800" height="600">
-></p>
->
-><p>
+></tr>
+><tr>
 >	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
-></p>
+></tr>
+></table>
 >
 
 **Fig. 1** shows monthly revenue and order dynamics where sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased num of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
 
 >
-><p align="center">
+><table>
+><tr align="center">
 >  <img src="images/customertrend.png" alt="Customer Trends" width="800" height="600">
-></p>
->
->
-><p>
+></tr>
+><tr>
 >  <b>Fig. 2. </b> Monthly  Customer  Trends by loyalty status. Green represents loyalty members and orange represents non-loyalty customers. The grey shaded area highlights 2020 during which non-Loyalty customers peaked while loyalty membership increased significantly. 
-></p>
+></tr>
+></table>
 >
 
 **Fig. 2** shows monthly customer trends segmented by loyalty status. Non-Loyalty customers were the primary drivers of growth between 2019 and 2021 with  a sharp surge in non-loyalty customers that peaked in May 2020. 
