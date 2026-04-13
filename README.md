@@ -43,7 +43,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 ### Sales Performance Overview (2019-2022)
 This section analyzes overall performance using monthly revenue trends, order volume, and average order value (AOV). The goal is to identify **revenue trends** and **provide data driven recommendations**.
 <details>
-<summary> **Click for details and figures**</summary>
+<summary> <b>Click for details and figures</b></summary>
 
 >
 ><table>
@@ -106,7 +106,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, **uncover inefficiencies**, and **provide data driven recommendations**.
 
 <details>
-<summary> **Click for details and figures**</summary>
+<summary> <b>Click for details and figures</b></summary>
 
 >
 > <table width="100%">
@@ -153,8 +153,9 @@ This section analyzes product level performance using monthly revenue trends, pr
 
 
 ### Customer, Geographic, Marketing, and Operational
-In progress.....
 <details>
+<summary> <b>Click for details and figures (in Progress)</b></summary>
+
 ### Customer Performance by Loyalty Membershipb
 
 >
