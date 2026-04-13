@@ -114,6 +114,7 @@ This section analyzes product level performance using monthly revenue trends, pr
 >     <td>
 >       <b>Fig. 3b.</b> Product Contribution and Segmentation Analysis.
 >     </td>
+>     <tr>
 >     <td> </td>
 >      <td> <b>Top row:</b> Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold,  **Bottom row:** Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines).</td>
 >   </tr>
