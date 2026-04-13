@@ -98,25 +98,25 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, uncover inefficiencies, and provide recommendations.
 
 >
-> <table>
+> <table width="100%">
 >   <tr>
->     <td align="center">
+>     <td align="center" width="50%">
 >       <img src="images/producttrend.png" width="500"><br>
 >     </td>
->     <td align="center">
+>     <td align="center" width="50%">
 >       <img src="images/productpareto.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
->     <td>
+>     <td width="50%">
 >       <b>Fig. 3a.</b> Monthly revenue trends segmented by product. 
 >     </td>
->     <td>
+>     <td width="50%">
 >       <b>Fig. 3b.</b> Product Contribution and Segmentation Analysis.
 >     </td>
 >     <tr>
->     <td> </td>
->      <td> <b>Top row:</b> Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold,  **Bottom row:** Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines).</td>
+>     <td width="50%"> </td >
+>      <td width="50%"> <b>Top row:</b> Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold,  **Bottom row:** Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines).</td>
 >   </tr>
 > </table>
 >
