@@ -16,13 +16,6 @@
 This project performs a comprehensive analysis of **sales data from 2019 to 2022**, covering ~88K customers and ~93K transactions. The goal is to evaluate business performance across revenue, orders, product profitability, refunds, loyalty programs, and regional demand and finally deliver **actionable insights** to support cross-functional teams (Sales, Marketing, Operations, Inventory, and Product).
 
 <details>
-<summary> Data & Tech Info </summary>
-
-**Tech Stack**: Python, Pandas, NumPy, Matplotlib, Seaborn, Tableau, Excel
-
-</details>
-
-<details>
 <summary>Key Stakeholder Questions</summary>
 E-Galaxy wants to better understand their performance and any growth opportunities.
 
@@ -31,15 +24,15 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 - How effective is the **Loyalty Program**? Should it be expanded or optimized?
 - What are the differences in demand across **regions and countries**?
 - How efficient is the **delivery process**, and where can operational improvements be made?
-- What recommendations can improve **inventory management**, **marketing ROI**, and **customer experience**?
+- What recommendations can improve **inventory management**, **marketing**, and **customer experience**?
 </details>
 
 <details>
 <summary> Data & Tech Info </summary>
 
-- **Data Processing & Analysis**: Python, Pandas, NumPy, Excel
-- **Visualization**: Matplotlib, Seaborn
-- **Dashboard**: Tableau (primary) + Power BI (exploratory)
+- **Data Processing & Analysis**: Python, Pandas, NumPy, Excel, SQL
+- **Visualization**: Matplotlib, Seaborn, Plotly
+- **Dashboard**: Tableau (explored with Power BI desktop as well)
 
 </details>
 
@@ -49,7 +42,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 ## Executive Summary
 ### Sales Performance Overview (2019-2022)
 >
-><p style="text-align: justify;">
+><p>
 >	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
 ></p>
 ><p align="center";>
@@ -64,7 +57,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 >  <img src="images/revenuetrend.png" alt="Revenue Trends" width="800" height="600">
 ></p>
 >
-><p style="text-align: justify;">
+><p>
 >	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
 ></p>
 >
@@ -76,9 +69,8 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 >  <img src="images/customertrend.png" alt="Customer Trends" width="800" height="600">
 ></p>
 >
-
 >
-><p "text-align: justify;">
+><p>
 >  <b>Fig. 2. </b> Monthly  Customer  Trends by loyalty status. Green represents loyalty members and orange represents non-loyalty customers. The grey shaded area highlights 2020 during which non-Loyalty customers peaked while loyalty membership increased significantly. 
 ></p>
 >
@@ -102,9 +94,10 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 - **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy
 
 ## Deeper Insights
-### Product Performance
+### Product Performance Analysis
+This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, uncover inefficiencies, and provide recommendations.
 
-
+>
 > <table>
 >   <tr>
 >     <td align="center">
@@ -116,12 +109,155 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 >   </tr>
 >   <tr>
 >     <td>
->       <b>Fig. 3a.</b> Monthly revenue trends segmented by product categories. Among the eight products, four consistently drive the majority of revenue over the observed period.
+>       <b>Fig. 3a.</b> Monthly revenue trends segmented by product. 
 >     </td>
 >     <td>
->       <b>Fig. 3b.</b> Product revenue contribution using Pareto analysis. The grey reference line represents the 80% cumulative revenue threshold, highlighting that the top four products contribute approximately 85% of total revenue.
+>       <b>Fig. 3b.</b> Product Contribution and Segmentation Analysis. **Top row:** Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold,  **Bottom row:** Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines).
 >     </td>
 >   </tr>
 > </table>
+>
 
+
+**Fig. 3a.** shows the monthly revenue trends segmented by products. Among the eight products, 27in 4k Gaming Monitor, Apple Airpods, and MacBook Air  are the top products driving revenue throughout 2019 to 2022. Parteo Analysis (**Fig. 3b. [top row]**) showed that these products contribute 85% of the total revenue. Thinkpad laptop also delivered about **11%** of total revenue.  All these four products peaked in the pandemic driven market sugre through out 2020 and stared declining after pandemic driven market.
+
+**Fig. 3b [bottom row]** shows the product segmentation analysis using median of the revenue and order volume into four quadrants as follows.
+| Segment          | Characteristics                  | Products                                      |
+|------------------|----------------------------------|-----------------------------------------------|
+| **Star**         | High revenue + High order volume (HH)      | Apple AirPods, 27in 4K Gaming Monitor     |
+| **Volume Drivers** | Low revenue + High order volume (LH)      | Samsung accessories (charging cables, webcams) |
+| **Premium**      | High revenue + Low order volume (HL)       | MacBook Air Laptop, ThinkPad Laptop          | 
+| **Underperformers** | Low revenue + Low volume (LL)     | Apple iPhone, Bose SoundPort                 |
+
+ The scatter plot showed that Apple Airpods are the most selling products followed by 27in 4k Gaming Monitor. These two are well inside the High revenue, High order volume (HH) quadrants and are the **Star products**. Samsung brands accessories like charging cables and webcams are the **Volume drivers** with low revenue but high order volume (LH). Laptops (MacBook Air and ThinkPad) are the **premium products** with high revenue but low order volume(HL). MacBook Air is  near the borderline of star products. Both premium products have high refund rate of **>11%**. Apple Iphones and Bose headphones are **Underperformers** with low volume and low revenue (LL). Although underperformers, Apple Iphone has high AOV of **$743** but still high refund rate of **8%**. 
+
+ **Key Insights**
+- Revenue is primarily driven by top three products.
+- **27 in 4K gaming monitor and Apple AirPods** are the star produts 
+- Premium product **Laptops** have high refund rate of **>11%**
+- **Samsung accessories** are volume drivers
+- **2022 shows 0 refunded products**. This is likely a data completness issue.  
+
+ **Recommendations**
+- Priortitize star  products these products are star products and ideal for targeted promotion
+- depriortizie bose soundport or reassessed for repositioning
+- Macbook Air and Thinkpad are premium products with high refund rates. High return trates may indicate product misalignment of fulfillment isses that warrant investigation and intervention.
+- Further investigation to fill gap as this missing data for such large period limits visibility into product performance and impacts refund trend modeling, inventory planning, and loss prevention.
+
+
+
+### Customer Performance by Loyalty Membershipb
+
+>
+> <table>
+>   <tr>
+>     <td align="center">
+>       <img src="images/customersrevenue.png" width="100%"><br>
+>     </td>
+>     <td align="center">
+>       <img src="images/customerorderdist.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td>
+>       <b>Fig. 4a.</b> 
+>     </td>
+>     <td>
+>       <b>Fig. 4b.</b> 
+>     </td>
+>   </tr>
+> </table>
+>
+
+
+### Geographic Performance
+
+>
+> <table>
+>   <tr>
+>     <td align="center">
+>       <img src="images/countryperformance.png" width="100%"><br>
+>     </td>
+>     <td align="center">
+>       <img src="images/countrypareto.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td>
+>       <b>Fig. 5a.</b> 
+>     </td>
+>     <td>
+>       <b>Fig. 5b.</b> 
+>     </td>
+>   </tr>
+> </table>
+>
+
+
+>
+> <table>
+>   <tr>
+>     <td align="center">
+>       <img src="images/regionperformance.png" width="100%"><br>
+>     </td>
+>     <td align="center">
+>       <img src="images/regionrefundrate.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td>
+>       <b>Fig. 6a.</b> 
+>     </td>
+>     <td>
+>       <b>Fig. 6b.</b> 
+>     </td>
+>   </tr>
+> </table>
+>
+
+
+### Marketing Channel Performance
+>
+> <table>
+>   <tr>
+>     <td align="center">
+>       <img src="images/marketingchannelperformance.png" width="100%"><br>
+>     </td>
+>     <td align="center">
+>       <img src="images/marketingchannelrefundrate.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td>
+>       <b>Fig. 7a.</b> M
+>     </td>
+>     <td>
+>       <b>Fig. 7b.</b> P
+>     </td>
+>   </tr>
+> </table>
+>
+
+
+### Operational Performance
+>
+> <table>
+>   <tr>
+>     <td align="center">
+>       <img src="images/deliverytimetrend.png" width="100%"><br>
+>     </td>
+>     <td align="center">
+>       <img src="images/deliverytimedist.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td>
+>       <b>Fig. 8a.</b> M
+>     </td>
+>     <td>
+>       <b>Fig. 8b.</b> P
+>     </td>
+>   </tr>
+> </table>
+>
 
