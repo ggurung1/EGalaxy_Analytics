@@ -88,8 +88,6 @@ This section analyzes sales performance using **revenue, order volume, and avera
 Since 2020, there is a notable shift to loyalty membership. Loyalty customers have increased significantly throughout 2020, eventually surpassing non-loyalty customers by the end of the year and  peaked in Feb 2021. This indicates successful conversion and retention. Both customer segments have stabilized in 2021 suggesting a plateau in customer expansion and engagement. However, beginning in April 2022, both loyalty and non-loyalty customers count  have sharply declined mirroring drop in orders and revenue (Fig. 1). This implies a contraction in the whole customer base rather than an isolated segment issue.
 </details>
 
-<details>
-<summary> Key Insights and Recommendations </summary>
 **Key Insights**
 - **Pandemic driven surge (2020) with increased revenue by **165%** primarily driven by a **102% increase in order volume**, indicating demand expansion rather than pricing power.
 - **Revenue is volume driven**  as changes in revenue closely track order volume, while AOV remains relatively stable within a narrow band of **$217-$320**y.
@@ -108,7 +106,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 - **Rebuild Customer demand** by strenghtening customer acquisition and retention program by relaunching loyalty program incentives and targeted campaigns.
 - **Analyze behaviour of loyalty members** to identify opportunities for increasing purchase frequency and lifetime value
 - **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy for sustainable consumption patterns.
-</details>
+
 
 ## Deeper Insights
 ### Product Performance Analysis
