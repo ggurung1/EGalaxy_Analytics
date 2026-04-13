@@ -101,10 +101,10 @@ This section analyzes product level performance using monthly revenue trends, pr
 > <table>
 >   <tr>
 >     <td align="center">
->       <img src="images/producttrend.png" width="100%"><br>
+>       <img src="images/producttrend.png" width="500"><br>
 >     </td>
 >     <td align="center">
->       <img src="images/productpareto.png" width="100%"><br>
+>       <img src="images/productpareto.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -112,8 +112,10 @@ This section analyzes product level performance using monthly revenue trends, pr
 >       <b>Fig. 3a.</b> Monthly revenue trends segmented by product. 
 >     </td>
 >     <td>
->       <b>Fig. 3b.</b> Product Contribution and Segmentation Analysis. **Top row:** Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold,  **Bottom row:** Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines).
+>       <b>Fig. 3b.</b> Product Contribution and Segmentation Analysis.
 >     </td>
+      <td> </td>
+      <td> **Top row:** Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold,  **Bottom row:** Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines).</td>
 >   </tr>
 > </table>
 >
@@ -124,9 +126,9 @@ This section analyzes product level performance using monthly revenue trends, pr
 **Fig. 3b [bottom row]** shows the product segmentation analysis using median of the revenue and order volume into four quadrants as follows.
 | Segment          | Characteristics                  | Products                                      |
 |------------------|----------------------------------|-----------------------------------------------|
-| **Star**         | High revenue + High order volume (HH)      | Apple AirPods, 27in 4K Gaming Monitor     |
-| **Volume Drivers** | Low revenue + High order volume (LH)      | Samsung accessories (charging cables, webcams) |
-| **Premium**      | High revenue + Low order volume (HL)       | MacBook Air Laptop, ThinkPad Laptop          | 
+| **Star**         | High revenue + High volume (HH)      | Apple AirPods, 27in 4K Gaming Monitor     |
+| **Volume Drivers** | Low revenue + High volume (LH)      | Samsung accessories (charging cables, webcams) |
+| **Premium**      | High revenue + Low volume (HL)       | MacBook Air Laptop, ThinkPad Laptop          | 
 | **Underperformers** | Low revenue + Low volume (LL)     | Apple iPhone, Bose SoundPort                 |
 
  The scatter plot showed that Apple Airpods are the most selling products followed by 27in 4k Gaming Monitor. These two are well inside the High revenue, High order volume (HH) quadrants and are the **Star products**. Samsung brands accessories like charging cables and webcams are the **Volume drivers** with low revenue but high order volume (LH). Laptops (MacBook Air and ThinkPad) are the **premium products** with high revenue but low order volume(HL). MacBook Air is  near the borderline of star products. Both premium products have high refund rate of **>11%**. Apple Iphones and Bose headphones are **Underperformers** with low volume and low revenue (LL). Although underperformers, Apple Iphone has high AOV of **$743** but still high refund rate of **8%**. 
