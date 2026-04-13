@@ -41,6 +41,9 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 
 ## Executive Summary
 ### Sales Performance Overview (2019-2022)
+This section analyzes overall performance using monthly revenue trends, order volume, and average order value (AOV). The goal is to identify **revenue trends** and **provide data driven recommendations**.
+<details>
+<summary> **Click for details and figures**</summary>
 
 >
 ><table>
@@ -82,6 +85,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 **Fig. 2** shows monthly customer trends segmented by loyalty status. Non-Loyalty customers were the primary drivers of growth between 2019 and 2021 with  a sharp surge in non-loyalty customers that peaked in May 2020. 
 
 Since 2020, there is a notable shift to loyalty membership. Loyalty customers have increased significantly throughout 2020, eventually surpassing non-loyalty customers by the end of the year and  peaked in Feb 2021. This indicates successful conversion and retention. Both customer segments have stabilized in 2021 suggesting a plateau in customer expansion and engagement. However, beginning in April 2022, both loyalty and non-loyalty customers count  have sharply declined mirroring drop in orders and revenue (Fig. 1). This implies a contraction in the whole customer base rather than an isolated segment issue.
+</details>
 
 **Key Insights**
 - **Revenue is primarily volume driven**. Changes in revenue closely tracks changes in order volume rather than AOV.
@@ -102,7 +106,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, **uncover inefficiencies**, and **provide data driven recommendations**.
 
 <details>
-<summary> Click for details and figures</summary>
+<summary> **Click for details and figures**</summary>
 
 >
 > <table width="100%">
