@@ -89,6 +89,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 </details>
 
 <details>
+<summary> Key Insights and Recommendations </summary>
 **Key Insights**
 - **Pandemic driven surge (2020) with increased revenue by **165%** primarily driven by a **102% increase in order volume**, indicating demand expansion rather than pricing power.
 - **Revenue is volume driven**  as changes in revenue closely track order volume, while AOV remains relatively stable within a narrow band of **$217-$320**y.
@@ -107,6 +108,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 - **Rebuild Customer demand** by strenghtening customer acquisition and retention program by relaunching loyalty program incentives and targeted campaigns.
 - **Analyze behaviour of loyalty members** to identify opportunities for increasing purchase frequency and lifetime value
 - **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy for sustainable consumption patterns.
+</details>
 
 ## Deeper Insights
 ### Product Performance Analysis
