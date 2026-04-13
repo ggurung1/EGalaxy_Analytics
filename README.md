@@ -101,6 +101,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 ### Product Performance Analysis
 This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, uncover inefficiencies, and provide recommendations.
 
+<details>
 >
 > <table width="100%">
 >   <tr>
@@ -113,7 +114,8 @@ This section analyzes product level performance using monthly revenue trends, pr
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 3a.</b> Monthly revenue trends segmented by product. <b>Fig. 3b.</b> Product Contribution and Segmentation Analysis. <b>Top row:</b> Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold. <b> Bottom row:</b> Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines)
+>       <b>Fig. 3a.</b> Monthly revenue trends segmented by product. <b>3b.</b> Product Contribution and Segmentation Analysis. <b>Top row:</b> Pareto analysis of product revenue contribution. The grey reference line represents the 80% cumulative revenue threshold. <b> Bottom row:</b> Product segmentation to four quadrants based on median revenue (horizontal grey lines) and median order volume (vertical grey lines)
+></td></tr>
 > </table>
 >
 
@@ -129,6 +131,7 @@ This section analyzes product level performance using monthly revenue trends, pr
 | **Underperformers** | Low revenue + Low volume (LL)     | Apple iPhone, Bose SoundPort                 |
 
  The scatter plot showed that Apple Airpods are the most selling products followed by 27in 4k Gaming Monitor. These two are well inside the High revenue, High order volume (HH) quadrants and are the **Star products**. Samsung brands accessories like charging cables and webcams are the **Volume drivers** with low revenue but high order volume (LH). Laptops (MacBook Air and ThinkPad) are the **premium products** with high revenue but low order volume(HL). MacBook Air is  near the borderline of star products. Both premium products have high refund rate of **>11%**. Apple Iphones and Bose headphones are **Underperformers** with low volume and low revenue (LL). Although underperformers, Apple Iphone has high AOV of **$743** but still high refund rate of **8%**. 
+</details>
 
  **Key Insights**
 - Revenue is primarily driven by top three products.
@@ -148,23 +151,19 @@ This section analyzes product level performance using monthly revenue trends, pr
 ### Customer Performance by Loyalty Membershipb
 
 >
-> <table>
+> <table width="100%">
 >   <tr>
->     <td align="center">
->       <img src="images/customersrevenue.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/customersrevenue.png" width="500"><br>
 >     </td>
->     <td align="center">
->       <img src="images/customerorderdist.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/customerorderdist.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
->     <td>
->       <b>Fig. 4a.</b> 
->     </td>
->     <td>
->       <b>Fig. 4b.</b> 
->     </td>
->   </tr>
+>     <td colspan="2">
+>       <b>Fig. 4a.</b>  <b>4b.</b> 
+></td></tr>
 > </table>
 >
 
@@ -172,91 +171,79 @@ This section analyzes product level performance using monthly revenue trends, pr
 ### Geographic Performance
 
 >
-> <table>
+> <table width="100%">
 >   <tr>
->     <td align="center">
->       <img src="images/countryperformance.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/countryperformance.png" width="500"><br>
 >     </td>
->     <td align="center">
->       <img src="images/countrypareto.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/countrypareto.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
->     <td>
->       <b>Fig. 5a.</b> 
->     </td>
->     <td>
->       <b>Fig. 5b.</b> 
->     </td>
->   </tr>
+>     <td colspan="2">
+>       <b>Fig. 5a.</b>  <b>5b.</b> 
+></td> </tr>t
 > </table>
 >
 
 
 >
-> <table>
+> <table width="100%">
 >   <tr>
->     <td align="center">
->       <img src="images/regionperformance.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/regionperformance.png" width="500"><br>
 >     </td>
->     <td align="center">
->       <img src="images/regionrefundrate.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/regionrefundrate.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
->     <td>
->       <b>Fig. 6a.</b> 
->     </td>
->     <td>
->       <b>Fig. 6b.</b> 
->     </td>
->   </tr>
+>     <td colspan="2">
+>       <b>Fig. 6a.</b>  <b>6b.</b> 
+></td></tr>
 > </table>
 >
+
 
 
 ### Marketing Channel Performance
+
 >
-> <table>
+> <table width="100%">
 >   <tr>
->     <td align="center">
->       <img src="images/marketingchannelperformance.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/marketingchannelperformance.png" width="500"><br>
 >     </td>
->     <td align="center">
->       <img src="images/marketingchannelrefundrate.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/marketingchannelrefundrate.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
->     <td>
->       <b>Fig. 7a.</b> M
->     </td>
->     <td>
->       <b>Fig. 7b.</b> P
->     </td>
->   </tr>
+>     <td colspan="2">
+>       <b>Fig. 8a.</b>  <b>8b.</b> 
+></td></tr>
 > </table>
 >
 
 
+
 ### Operational Performance
+
 >
-> <table>
+> <table width="100%">
 >   <tr>
->     <td align="center">
->       <img src="images/deliverytimetrend.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/deliverytimetrend.png" width="500"><br>
 >     </td>
->     <td align="center">
->       <img src="images/deliverytimedist.png" width="100%"><br>
+>     <td align="center" width="50%">
+>       <img src="images/deliverytimedist.png" width="500"><br>
 >     </td>
 >   </tr>
 >   <tr>
->     <td>
->       <b>Fig. 8a.</b> M
->     </td>
->     <td>
->       <b>Fig. 8b.</b> P
->     </td>
->   </tr>
+>     <td colspan="2">
+>       <b>Fig. 9a.</b>  <b>9b.</b> 
+></td></tr>
 > </table>
 >
 
