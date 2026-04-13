@@ -89,11 +89,11 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 </details>
 
 **Key Insights**
-- **Pandemic driven surge (2020) with increased revenue by **165%** primarily driven by a **102% increase in order volume**, indicating demand expansion rather than pricing power.
-- **Revenue is volume driven**  as changes in revenue closely track order volume, while AOV remains relatively stable within a narrow band of **$217-$320**y.
+- **Pandemic driven surge in 2020** with increased revenue (**~165%**) primarily driven by a **~102% increase in order volume**, indicating demand expansion rather than pricing power.
+- **Revenue is volume driven**  as changes in revenue closely track order volume, while AOV remains relatively stable within a narrow band of **$217-$320**.
 - **Post-peak normalization** as demand patterns indicate a reversion following pandemic-driven boom.
-- **Demand contraction in 20222** with declined Revenue (-44%), Orders (-38%), AOV (-9%) indicating deeper demand challenges.
-- **Customer shifted from non-loyalty to loyalty memberships** post 2020. But 2022 showed decline across both segments signaling systemic demand issues.
+- **Demand contraction in 20222** with declined Revenue (-44%), Orders (-38%), AOV (-9%) signaling deeper demand challenges.
+- **Customer shifted from non-loyalty to loyalty memberships** post 2020. But 2022 showed decline across both segments indicating systemic demand issues.
 - **Further deep analysis required**
 
 **Business Implications**
