@@ -16,7 +16,7 @@
 This project performs a comprehensive analysis of **sales data from 2019 to 2022**, covering ~88K customers and ~93K transactions. The goal is to evaluate business performance across revenue, orders, product profitability, refunds, loyalty programs, and regional demand and finally deliver **actionable insights** to support cross-functional teams (Sales, Marketing, Operations, Inventory, and Product).
 
 <details>
-<summary>Key Stakeholder Questions</summary>
+<summary> <b>Key Stakeholder Questions</b></summary>
 E-Galaxy wants to better understand their performance and any growth opportunities.
 
 - How have **revenue**, **number of orders**, and **Average Order Value (AOV)** trended over time?
@@ -28,7 +28,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 </details>
 
 <details>
-<summary> Data & Tech Info </summary>
+<summary> <b>Data & Tech Info</b> </summary>
 
 - **Data Processing & Analysis**: Python, Pandas, NumPy, Excel, SQL
 - **Visualization**: Matplotlib, Seaborn, Plotly
@@ -41,7 +41,8 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 
 ## Executive Summary
 ### Sales Performance Overview (2019-2022)
-This section analyzes overall performance using monthly revenue trends, order volume, and average order value (AOV). The goal is to identify **revenue trends** and **provide data driven recommendations**.
+This section analyzes sales performance using **revenue, order volume, and average order value (AOV)** to uncover growth drivers, demand shifts, and actionable opportunities.
+
 <details>
 <summary> <b>Click for details and figures</b></summary>
 
@@ -87,19 +88,25 @@ This section analyzes overall performance using monthly revenue trends, order vo
 Since 2020, there is a notable shift to loyalty membership. Loyalty customers have increased significantly throughout 2020, eventually surpassing non-loyalty customers by the end of the year and  peaked in Feb 2021. This indicates successful conversion and retention. Both customer segments have stabilized in 2021 suggesting a plateau in customer expansion and engagement. However, beginning in April 2022, both loyalty and non-loyalty customers count  have sharply declined mirroring drop in orders and revenue (Fig. 1). This implies a contraction in the whole customer base rather than an isolated segment issue.
 </details>
 
+<details>
 **Key Insights**
-- **Revenue is primarily volume driven**. Changes in revenue closely tracks changes in order volume rather than AOV.
-- **AOV remained relatively stable** within a narrow band of **$217-$320** contributing minimally to revenue volatility.
+- **Pandemic driven surge (2020) with increased revenue by **165%** primarily driven by a **102% increase in order volume**, indicating demand expansion rather than pricing power.
+- **Revenue is volume driven**  as changes in revenue closely track order volume, while AOV remains relatively stable within a narrow band of **$217-$320**y.
 - **Post-peak normalization** as demand patterns indicate a reversion following pandemic-driven boom.
-- **Customer shifted toward loyalty memberships** post 2020, reflecting improved retention and membership adoption.
-- **Sharp drop in 2022 orders is structural** with reductions across both customer segments singaling deeper demand challenges. 
+- **Demand contraction in 20222** with declined Revenue (-44%), Orders (-38%), AOV (-9%) indicating deeper demand challenges.
+- **Customer shifted from non-loyalty to loyalty memberships** post 2020. But 2022 showed decline across both segments signaling systemic demand issues.
 - **Further deep analysis required**
 
+**Business Implications**
+- Growth during 2020 was **externally driven (pandemic effects)** and not structurally sustainable.
+- 2022 decline suggests **customer acquisition and retention breakdown**.
+- The business lacks **strong AOV expansion mechanisms**.
+
 **Recommendations**
-- **Increase AOV** through bundling, upselling, and pricing optimization strategies
-- **Rebuild Customer demand** by strenghtening customer acquisition and retention programs, particularly within the loyalty segment.
+- **Increase AOV** through product bundling, upselling, and pricing optimization strategies.
+- **Rebuild Customer demand** by strenghtening customer acquisition and retention program by relaunching loyalty program incentives and targeted campaigns.
 - **Analyze behaviour of loyalty members** to identify opportunities for increasing purchase frequency and lifetime value
-- **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy
+- **Reassess customer behaviour** by analyzing post-pandemic shifts to realign product offerings and marketing strategy for sustainable consumption patterns.
 
 ## Deeper Insights
 ### Product Performance Analysis
@@ -125,9 +132,9 @@ This section analyzes product level performance using monthly revenue trends, pr
 > </table>
 >
 
-**Fig. 3a.** shows the monthly revenue trends segmented by products. Among the eight products, 27in 4k Gaming Monitor, Apple Airpods, and MacBook Air  are the top products driving revenue throughout 2019 to 2022. Parteo Analysis (**Fig. 3b. [top row]**) showed that these products contribute 85% of the total revenue. Thinkpad laptop also delivered about **11%** of total revenue.  All these four products peaked in the pandemic driven market sugre through out 2020 and stared declining after pandemic driven market.
+**Fig. 3a.** shows the monthly revenue trends by product. Among the eight products, **27in 4k Gaming Monitor, Apple Airpods**, and **MacBook Air**  are the top products consistently driving the majority of revenue from 2019 to 2022. The Parteo Analysis (**Fig. 3b., top row**) shows that these three products contribute **~85%** of the total revenue. Additionaly, the **Thinkpad laptop** accounts for a further **~11%**, bringing combined contribution of top four products to **~86%** of total revenue. All four products experienced a significant peak during the the pandemic driven market in 2020 followed by gradual normalization from 2021 to 2022, reflecting declining demand. 
 
-**Fig. 3b [bottom row]** shows the product segmentation analysis using median of the revenue and order volume into four quadrants as follows.
+**Fig. 3b [bottom row]** presents product segmentation analysis based on median revenue and order volume, dividing products into four quadrants.
 | Segment          | Characteristics                  | Products                                      |
 |------------------|----------------------------------|-----------------------------------------------|
 | **Star**         | High revenue + High volume (HH)      | Apple AirPods, 27in 4K Gaming Monitor     |
@@ -135,22 +142,39 @@ This section analyzes product level performance using monthly revenue trends, pr
 | **Premium**      | High revenue + Low volume (HL)       | MacBook Air Laptop, ThinkPad Laptop          | 
 | **Underperformers** | Low revenue + Low volume (LL)     | Apple iPhone, Bose SoundPort                 |
 
- The scatter plot showed that Apple Airpods are the most selling products followed by 27in 4k Gaming Monitor. These two are well inside the High revenue, High order volume (HH) quadrants and are the **Star products**. Samsung brands accessories like charging cables and webcams are the **Volume drivers** with low revenue but high order volume (LH). Laptops (MacBook Air and ThinkPad) are the **premium products** with high revenue but low order volume(HL). MacBook Air is  near the borderline of star products. Both premium products have high refund rate of **>11%**. Apple Iphones and Bose headphones are **Underperformers** with low volume and low revenue (LL). Although underperformers, Apple Iphone has high AOV of **$743** but still high refund rate of **8%**. 
+ The scatter plot shows that **Apple Airpods** are the highest selling product, followed by **27in 4k Gaming Monitor**. Both are firmly positioned in the **High revenue, High volume (HH)** quadrant, making them the company's **Star products**. 
+
+ **Samsung accessories** (charging cables and webcams) fall into the **Volume drivers** category that generates high order volume but relatively low revenue per order.
+
+**Premium products** includes **MacBook Air and ThinkPad laptops** that generates high revenue but have lower sales volume. Notably, the MacBook Air is  positioned close to the **Star quadrant**. This implies potetntial for growth. However, both premium products have **high refund rate **(>11%)** which is a significant concern.
+
+**Undepreforming products** such as **Apple iPhone and Bose headphones** show low revenue and low order volume. Despite this, the iPhone has a **high AOV (~$743)** but still suffers from a relatively high **refund rate(~8%)** suggesting customer dissatisfcation.
 </details>
 
+<details>
+  <summary> <b>Key Insights and Recommendations for Product Team</b> </summary>
  **Key Insights**
-- Revenue is primarily driven by top three products.
-- **27 in 4K gaming monitor and Apple AirPods** are the star produts 
-- Premium product **Laptops** have high refund rate of **>11%**
-- **Samsung accessories** are volume drivers
-- **2022 shows 0 refunded products**. This is likely a data completness issue.  
+- Revenue is primarily driven by top three products. They contribute 85% of total revenue indicating heavy reliance on a limited product.
+- **Product Segmentation**
+| Segment          | Products         | Action                             |
+|------------------|----------------------------------|-----------------------------------------------|
+| **Star**         | Apple AirPods, 27in 4K Gaming Monitor     | Scale marketing, enusre inventory |
+| **Volume Drivers** | Samsung accessories (charging cables, webcams) | Bundle to increase AOV|
+| **Premium**      | MacBook Air Laptop, ThinkPad Laptop (Higher refund rate)          | Investigate and reduce refund issues |
+| **Underperformers** | Apple iPhone, Bose SoundPort | Reposition or consider phase out|      
+
+- **Critical issues identified**
+  - **High refund rates (>11%)** in premium product **laptops**. Possible causes might be product expectation mismatch, quality issues, or logistics problems.
+  - **Underperforming Applie iPhone** have high AOV but low demands. Refund rates are also relatively high (**~8%**) indicating potential positioning or pricing issues. 
+  - **Missing refund data for 2022** . This represents **data quality issues** limting accurate performance evaluation, refund trend analysis and inventory planning.
 
  **Recommendations**
-- Priortitize star  products these products are star products and ideal for targeted promotion
-- depriortizie bose soundport or reassessed for repositioning
-- Macbook Air and Thinkpad are premium products with high refund rates. High return trates may indicate product misalignment of fulfillment isses that warrant investigation and intervention.
-- Further investigation to fill gap as this missing data for such large period limits visibility into product performance and impacts refund trend modeling, inventory planning, and loss prevention.
-
+- Priortitize on star products with targeted marketing, promotions, and inventory optimization as they are the primary revenue drivers.
+- Fix refund problem (**High Priority**) on premium products by conducting root cause analysis by reviewing return reasons, customer feedback, delivery issues and others.  Reducing refund rates will have a **direct positive impact on profitability.**
+- Monetize volume drivers by bundling accessories with high value products (e.g. monitors, laptops) to increase AOV.
+- Reassess Bose soundport and iPhone and decide on whether to improve their positioning and marketing  or phase out if performance does not improve.
+- Resolve data gaps by further investigation on missing refund data for 2022 as it limits visibility into product performance, refund analysis, inventory planning, and forecasting.
+</details>
 
 ### Customer, Geographic, Marketing, and Operational
 <details>
