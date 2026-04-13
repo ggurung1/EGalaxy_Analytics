@@ -65,12 +65,12 @@ This section analyzes sales performance using **revenue, order volume, and avera
 >  <img src="images/revenuetrend.png" alt="Revenue Trends" width="100%">
 ></tr>
 ><tr>
->	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
+>	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
 ></tr>
 ></table>
 >
 
-**Fig. 1** shows monthly revenue and order dynamics where sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased num of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
+**Fig. 1** shows monthly revenue and order dynamics where sales revenue peaked in **May 2020** and monthly revenue reached approximately **$1M** reflecting the pandemic driven e-commerce surge. This was accompanied by increased number of orders. **March 2020** showed the highest monthly growth rate of **50%** compared to previous month. The purple bars patch is concentrated between January 2020 and Q1 of 2021 reflecting peak AOV, order volume, and sales revenue.
 
 >
 ><table>
@@ -92,7 +92,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 - **Pandemic driven surge in 2020** with increased revenue (**~165%**) primarily driven by a **~102% increase in order volume**, indicating demand expansion rather than pricing power.
 - **Revenue is volume driven**  as changes in revenue closely track order volume, while AOV remains relatively stable within a narrow band of **$217-$320**.
 - **Post-peak normalization** as demand patterns indicate a reversion following pandemic-driven boom.
-- **Demand contraction in 20222** with declined Revenue (-44%), Orders (-38%), AOV (-9%) signaling deeper demand challenges.
+- **Demand contraction in 2022** with declined Revenue (-44%), Orders (-38%), AOV (-9%) signaling deeper demand challenges.
 - **Customer shifted from non-loyalty to loyalty memberships** post 2020. But 2022 showed decline across both segments indicating systemic demand issues.
 - **Further deep analysis required**
 
@@ -132,9 +132,9 @@ This section analyzes product level performance using monthly revenue trends, pr
 > </table>
 >
 
-**Fig. 3a.** shows the monthly revenue trends by product. Among the eight products, **27in 4k Gaming Monitor, Apple Airpods**, and **MacBook Air**  are the top products consistently driving the majority of revenue from 2019 to 2022. The Parteo Analysis (**Fig. 3b., top row**) shows that these three products contribute **~85%** of the total revenue. Additionaly, the **Thinkpad laptop** accounts for a further **~11%**, bringing combined contribution of top four products to **~86%** of total revenue. All four products experienced a significant peak during the the pandemic driven market in 2020 followed by gradual normalization from 2021 to 2022, reflecting declining demand. 
+**Fig. 3a.** shows the monthly revenue trends by product. Among the eight products, **27in 4k Gaming Monitor, Apple Airpods**, and **MacBook Air**  are the top products consistently driving the majority of revenue from 2019 to 2022. The Parteo Analysis (**Fig. 3b., top row**) shows that these three products contribute **~85%** of the total revenue. Additionaly, the **Thinkpad laptop** accounts for a further **~11%**, bringing combined contribution of top four products to **~96%** of total revenue. All four products experienced a significant peak during the the pandemic driven market in 2020 followed by gradual normalization from 2021 to 2022, reflecting declining demand. 
 
-**Fig. 3b [bottom row]** presents product segmentation analysis based on median revenue and order volume, dividing products into four quadrants.
+**Fig. 3b (bottom row)** presents product segmentation analysis based on median revenue and order volume, dividing products into four quadrants.
 | Segment          | Characteristics                  | Products                                      |
 |------------------|----------------------------------|-----------------------------------------------|
 | **Star**         | High revenue + High volume (HH)      | Apple AirPods, 27in 4K Gaming Monitor     |
@@ -148,14 +148,16 @@ This section analyzes product level performance using monthly revenue trends, pr
 
 **Premium products** includes **MacBook Air and ThinkPad laptops** that generates high revenue but have lower sales volume. Notably, the MacBook Air is  positioned close to the **Star quadrant**. This implies potetntial for growth. However, both premium products have **high refund rate **(>11%)** which is a significant concern.
 
-**Undepreforming products** such as **Apple iPhone and Bose headphones** show low revenue and low order volume. Despite this, the iPhone has a **high AOV (~$743)** but still suffers from a relatively high **refund rate(~8%)** suggesting customer dissatisfcation.
+**Undepreforming products** such as **Apple iPhone and Bose headphones** show low revenue and low order volume. IPhone has a **high AOV (~$743)** but low demands and suffers from a relatively high **refund rate(~8%)** suggesting customer dissatisfcation.
 </details>
 
 <details>
   <summary> <b>Key Insights and Recommendations for Product Team</b> </summary>
+
  **Key Insights**
 - Revenue is primarily driven by top three products. They contribute 85% of total revenue indicating heavy reliance on a limited product.
 - **Product Segmentation**
+
 | Segment          | Products         | Action                             |
 |------------------|----------------------------------|-----------------------------------------------|
 | **Star**         | Apple AirPods, 27in 4K Gaming Monitor     | Scale marketing, enusre inventory |
