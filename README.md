@@ -48,7 +48,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 >	<b>Table 1.</b> Annual Sales Performance Summary showing yearly sales revenue, number of orders, and average order value (AOV), including year-over-year (YoY) growth rates for each metric.
 ></tr>
 ><tr align="center";>
->  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="800" height="600">
+>  <img src="images/yearlytable.png" alt="Annual Sales Performnace Table" width="100%">
 ></tr>
 ></table>
 >
@@ -58,7 +58,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 >
 ><table>
 ><tr align="center">
->  <img src="images/revenuetrend.png" alt="Revenue Trends" width="800" height="600">
+>  <img src="images/revenuetrend.png" alt="Revenue Trends" width="100%">
 ></tr>
 ><tr>
 >	<b>Fig. 1. </b> Monthly Sales Revenue Trends. The black line represents monthly sales revenue. Bar height shows the number of orders, while color (gold to purple) reflects the strength of AOV ranging from $217 to $320. Annotations higlights the month with the highest Revenue and the month with highest month-over-month growth rate. The grey shaded area highlights 2020 during which the revenue, order volume, and AOV peaked.
@@ -71,7 +71,7 @@ E-Galaxy wants to better understand their performance and any growth opportuniti
 >
 ><table>
 ><tr align="center">
->  <img src="images/customertrend.png" alt="Customer Trends" width="800" height="600">
+>  <img src="images/customertrend.png" alt="Customer Trends" width="100%">
 ></tr>
 ><tr>
 >  <b>Fig. 2. </b> Monthly  Customer  Trends by loyalty status. Green represents loyalty members and orange represents non-loyalty customers. The grey shaded area highlights 2020 during which non-Loyalty customers peaked while loyalty membership increased significantly. 
@@ -99,17 +99,18 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 
 ## Deeper Insights
 ### Product Performance Analysis
-This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, uncover inefficiencies, and provide recommendations.
+This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, **uncover inefficiencies**, and **provide data driven recommendations**.
 
 <details>
+
 >
 > <table width="100%">
 >   <tr>
 >     <td align="center" width="50%">
->       <img src="images/producttrend.png" width="500"><br>
+>       <img src="images/producttrend.png" width="100%"><br>
 >     </td>
 >     <td align="center" width="50%">
->       <img src="images/productpareto.png" width="500"><br>
+>       <img src="images/productpareto.png" width="100%"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -118,7 +119,6 @@ This section analyzes product level performance using monthly revenue trends, pr
 ></td></tr>
 > </table>
 >
-
 
 **Fig. 3a.** shows the monthly revenue trends segmented by products. Among the eight products, 27in 4k Gaming Monitor, Apple Airpods, and MacBook Air  are the top products driving revenue throughout 2019 to 2022. Parteo Analysis (**Fig. 3b. [top row]**) showed that these products contribute 85% of the total revenue. Thinkpad laptop also delivered about **11%** of total revenue.  All these four products peaked in the pandemic driven market sugre through out 2020 and stared declining after pandemic driven market.
 
@@ -147,17 +147,19 @@ This section analyzes product level performance using monthly revenue trends, pr
 - Further investigation to fill gap as this missing data for such large period limits visibility into product performance and impacts refund trend modeling, inventory planning, and loss prevention.
 
 
-
+### Customer, Geographic, Marketing, and Operational
+In progress.....
+<details>
 ### Customer Performance by Loyalty Membershipb
 
 >
 > <table width="100%">
 >   <tr>
 >     <td align="center" width="50%">
->       <img src="images/customersrevenue.png" width="500"><br>
+>       <img src="images/customersrevenue.png" width="100%"><br>
 >     </td>
 >     <td align="center" width="50%">
->       <img src="images/customerorderdist.png" width="500"><br>
+>       <img src="images/customerorderdist.png" width="100%"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -174,10 +176,10 @@ This section analyzes product level performance using monthly revenue trends, pr
 > <table width="100%">
 >   <tr>
 >     <td align="center" width="50%">
->       <img src="images/countryperformance.png" width="500"><br>
+>       <img src="images/countryperformance.png" width="100%"><br>
 >     </td>
 >     <td align="center" width="50%">
->       <img src="images/countrypareto.png" width="500"><br>
+>       <img src="images/countrypareto.png" width="100%"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -192,10 +194,10 @@ This section analyzes product level performance using monthly revenue trends, pr
 > <table width="100%">
 >   <tr>
 >     <td align="center" width="50%">
->       <img src="images/regionperformance.png" width="500"><br>
+>       <img src="images/regionperformance.png" width="100%"><br>
 >     </td>
 >     <td align="center" width="50%">
->       <img src="images/regionrefundrate.png" width="500"><br>
+>       <img src="images/regionrefundrate.png" width="100%"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -213,10 +215,10 @@ This section analyzes product level performance using monthly revenue trends, pr
 > <table width="100%">
 >   <tr>
 >     <td align="center" width="50%">
->       <img src="images/marketingchannelperformance.png" width="500"><br>
+>       <img src="images/marketingchannelperformance.png" width="100%"><br>
 >     </td>
 >     <td align="center" width="50%">
->       <img src="images/marketingchannelrefundrate.png" width="500"><br>
+>       <img src="images/marketingchannelrefundrate.png" width="100%"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -234,10 +236,10 @@ This section analyzes product level performance using monthly revenue trends, pr
 > <table width="100%">
 >   <tr>
 >     <td align="center" width="50%">
->       <img src="images/deliverytimetrend.png" width="500"><br>
+>       <img src="images/deliverytimetrend.png" width="100%"><br>
 >     </td>
 >     <td align="center" width="50%">
->       <img src="images/deliverytimedist.png" width="500"><br>
+>       <img src="images/deliverytimedist.png" width="100%"><br>
 >     </td>
 >   </tr>
 >   <tr>
@@ -247,3 +249,4 @@ This section analyzes product level performance using monthly revenue trends, pr
 > </table>
 >
 
+</details>
