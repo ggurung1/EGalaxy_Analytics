@@ -13,7 +13,7 @@
 
 **E-Galaxy** is a global e-commerce company specializing in electronics products like laptops, smartphones, headphones, and accessories from leading brands like **Apple**, **Samsung**, **Lenovo**, and **Bose**. Founded in 2018, the company operates through web and mobile platforms.
 
-This project performs a comprehensive analysis of **sales data from 2019 to 2022**, covering ~88K customers and ~93K transactions. The goal is to evaluate business performance across revenue, orders, product profitability, refunds, loyalty programs, and regional demand and finally deliver **actionable insights** to support cross-functional teams (Sales, Marketing, Operations, Inventory, and Product).
+This project performs a comprehensive analysis of **sales data from 2019 to 2022**, covering ~88K customers and ~93K transactions. The goal is to evaluate business performance across revenue, orders, product profitability, refunds, loyalty programs, and regional demand and finally deliver **actionable insights** to support cross-functional teams (Sales, Product, Cusatomer, Marketing, Operations, and Inventory).
 
 <details>
 <summary> <b>Key Stakeholder Questions</b></summary>
@@ -146,7 +146,7 @@ This section analyzes product level performance using monthly revenue trends, pr
 
  **Samsung accessories** (charging cables and webcams) fall into the **Volume drivers** category that generates high order volume but relatively low revenue per order.
 
-**Premium products** includes **MacBook Air and ThinkPad laptops** that generates high revenue but have lower sales volume. Notably, the MacBook Air is  positioned close to the **Star quadrant**. This implies potetntial for growth. However, both premium products have **high refund rate **(>11%)** which is a significant concern.
+**Premium products** includes **MacBook Air and ThinkPad laptops** that generates high revenue but have lower sales volume. Notably, the MacBook Air is  positioned close to the **Star quadrant**. This implies potetntial for growth. However, both premium products have **high refund rate (>11%)** which is a significant concern.
 
 **Undepreforming products** such as **Apple iPhone and Bose headphones** show low revenue and low order volume. IPhone has a **high AOV (~$743)** but low demands and suffers from a relatively high **refund rate(~8%)** suggesting customer dissatisfcation.
 </details>
@@ -172,17 +172,17 @@ This section analyzes product level performance using monthly revenue trends, pr
 
  **Recommendations**
 - Priortitize on star products with targeted marketing, promotions, and inventory optimization as they are the primary revenue drivers.
-- Fix refund problem (**High Priority**) on premium products by conducting root cause analysis by reviewing return reasons, customer feedback, delivery issues and others.  Reducing refund rates will have a **direct positive impact on profitability.**
+- **Fix refund problem** (<font color="red"><b>High Priority</b></font>) on premium products by conducting root cause analysis by reviewing return reasons, customer feedback, delivery issues and others.  Reducing refund rates will have a **direct positive impact on profitability.**
 - Monetize volume drivers by bundling accessories with high value products (e.g. monitors, laptops) to increase AOV.
-- Reassess Bose soundport and iPhone and decide on whether to improve their positioning and marketing  or phase out if performance does not improve.
-- Resolve data gaps by further investigation on missing refund data for 2022 as it limits visibility into product performance, refund analysis, inventory planning, and forecasting.
+- **Reassess Bose soundport and iPhone** and decide on whether to improve their positioning and marketing  or phase out if performance does not improve.
+- **Resolve data gaps** by further investigation on missing refund data for 2022 as it limits visibility into product performance, refund analysis, inventory planning, and forecasting.
 </details>
 
-### Customer, Geographic, Marketing, and Operational
-<details>
-<summary> <b>Click for details and figures (in Progress)</b></summary>
 
-### Customer Performance by Loyalty Membershipb
+### Customer Performance by Loyalty Membership
+
+<details>
+<summary> <b>Click for details and figures</b></summary>
 
 >
 > <table width="100%">
@@ -196,11 +196,47 @@ This section analyzes product level performance using monthly revenue trends, pr
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 4a.</b>  <b>4b.</b> 
+>       <b>Fig. 4a.</b> Customer revenue trends by Loyalty membership.  <b>4b.</b> Customer distribution by order frequency and loyalty  membership. Green color represents loyalty members and orange highlights non-loyalty members.
 ></td></tr>
 > </table>
 >
 
+**Fig. 4a.** shows non-loyalty members are the primary revenue drivers from 2019 through 2020. This has shifted in 2021 highlighting **strong retention and customer value growth** with loyalty program. At the beginning of 2021, loyalty members surspass non-loyalty customers in total revenue. This is supported by a steady increase in average order value (AOV) clearly indicating improved customer engagement. 
+
+In contrast, non-loyalty AOV has fallen sharply toward the end of 2020 signaling the non-loyalty member's higher volatlity and sensitivity to external factors such as promotions and market conditions.
+
+From mid 2022 onward, loyalty revenue began to decline, eventually falling below non-loyalty revenue by september 2022.  This reversal signals potential engagement fatigue, reduced program attractivenss, and post-pandemic market normalization. While the loyalty program proved effective in driving retention and value in 2021, sustaining engagement over time remains a challenge which will require continuous optimization.
+
+**Fig. 4b.** shows customer distibution by order frequency. There are high proportion (~94%) of one-time buyers.  This siginifies a significant retention gap. Out of the total one-time buyers, 51% are non-loyalty customers and remaining are loyalty. Across all order freuqency segments, non-loyalty customers dominate overall volume. Only 5.2%  of customers make a sceond purchase and a very small proportion reach 3+ orders. This all indicates that loyalty program has not yet effectively translated into strong repeat purchase behavior, highlighting an opportunity to improve lifecycle engagement.
+
+</details>
+
+
+<details>
+  <summary> <b>Key Insights and Recommendations for Product Team</b> </summary>
+
+ **Key Insights**
+ - Rapid acquisiton of non-loyalty customers in 2020 drove short term revenue growth
+ - Loylatly program showed clear success in 2021 with improved AOV and retention
+ - 2022 decline suggests waning engagment or insufficient program evolution.
+ - Extremely high share of one time buyers signals weak customer retention.
+
+
+**Recommendations**
+- Enhance loyalty value proposition by introducing exclusive perks like early access to bestsellers, member only drops, and personalized discounts.
+- Re-engage inactive loyalty members with lifecycle campaigns.
+- Continuous monitoring of loyalty vs non-loyatly revenue, AOV trends and repeat purchase rates.
+- Stabilize  and grow AOV for loyalty members by bundling strategies or optimizing pricing and promotional strategies.
+
+
+While the available data is not sufficient to make a conclusive decision about loyalty program. The observed trends are clear which shows that loyalty program have strong potential but inconsistent performance. Long term success will depend on continuous iteration, personalization, and deeper integration into the customer journey. 
+</details>
+
+
+
+### Geographic, Marketing, and Operational
+<details>
+<summary> <b>Click for details and figures (in Progress)</b></summary>
 
 ### Geographic Performance
 
@@ -221,6 +257,11 @@ This section analyzes product level performance using monthly revenue trends, pr
 > </table>
 >
 
+
+- Revenue concentrated in top countries
+- Regional variation in refund rates and demand
+
+localized pricing, logistics, marketing
 
 >
 > <table width="100%">
@@ -260,7 +301,9 @@ This section analyzes product level performance using monthly revenue trends, pr
 > </table>
 >
 
+- channels vary in revenue contribution, refund rates
 
+optimize marketing ROI
 
 ### Operational Performance
 
@@ -280,5 +323,9 @@ This section analyzes product level performance using monthly revenue trends, pr
 ></td></tr>
 > </table>
 >
+
+- Delivery delays impact customer experience. refund likelihood
+
+improve logistics consistency
 
 </details>
