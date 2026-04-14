@@ -109,8 +109,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 
 
 ## Deeper Insights
-### Product Performance Analysis
-This section analyzes product level performance using monthly revenue trends, product contribution (Pareto analysis), and order volume vs revenue segmentation. The goal is to identify **high impact products**, **uncover inefficiencies**, and **provide data driven recommendations**.
+### 1. Product Performance Analysis
 
 <details>
 <summary> <b>Click for details and figures</b></summary>
@@ -152,7 +151,7 @@ This section analyzes product level performance using monthly revenue trends, pr
 </details>
 
 <details>
-  <summary> <b>Key Insights and Recommendations for Product Team</b> </summary>
+  <summary> <b>Key Insights and Recommendations</b> </summary>
 
  **Key Insights**
 - Revenue is primarily driven by top three products. They contribute 85% of total revenue indicating heavy reliance on a limited product.
@@ -179,7 +178,7 @@ This section analyzes product level performance using monthly revenue trends, pr
 </details>
 
 
-### Customer Performance by Loyalty Membership
+### 2. Customer Performance by Loyalty Membership
 
 <details>
 <summary> <b>Click for details and figures</b></summary>
@@ -203,7 +202,7 @@ This section analyzes product level performance using monthly revenue trends, pr
 
 **Fig. 4a.** shows non-loyalty members are the primary revenue drivers from 2019 through 2020. This has shifted in 2021 highlighting **strong retention and customer value growth** with loyalty program. At the beginning of 2021, loyalty members surspass non-loyalty customers in total revenue. This is supported by a steady increase in average order value (AOV) clearly indicating improved customer engagement. 
 
-In contrast, non-loyalty AOV has fallen sharply toward the end of 2020 signaling the non-loyalty member's higher volatlity and sensitivity to external factors such as promotions and market conditions.
+In contrast, non-loyalty revenue and AOV has fallen sharply toward the end of 2020 signaling the non-loyalty member's higher volatlity and sensitivity to external factors such as promotions and market conditions.
 
 From mid 2022 onward, loyalty revenue began to decline, eventually falling below non-loyalty revenue by september 2022.  This reversal signals potential engagement fatigue, reduced program attractivenss, and post-pandemic market normalization. While the loyalty program proved effective in driving retention and value in 2021, sustaining engagement over time remains a challenge which will require continuous optimization.
 
@@ -213,7 +212,7 @@ From mid 2022 onward, loyalty revenue began to decline, eventually falling below
 
 
 <details>
-  <summary> <b>Key Insights and Recommendations for Product Team</b> </summary>
+  <summary> <b>Key Insights and Recommendations</b> </summary>
 
  **Key Insights**
  - Rapid acquisiton of non-loyalty customers in 2020 drove short term revenue growth
@@ -233,35 +232,10 @@ While the available data is not sufficient to make a conclusive decision about l
 </details>
 
 
+### 3. Geographic Performance
 
-### Geographic, Marketing, and Operational
 <details>
-<summary> <b>Click for details and figures (in Progress)</b></summary>
-
-### Geographic Performance
-
->
-> <table width="100%">
->   <tr>
->     <td align="center" width="50%">
->       <img src="images/countryperformance.png" width="100%"><br>
->     </td>
->     <td align="center" width="50%">
->       <img src="images/countrypareto.png" width="100%"><br>
->     </td>
->   </tr>
->   <tr>
->     <td colspan="2">
->       <b>Fig. 5a.</b>  <b>5b.</b> 
-></td> </tr>t
-> </table>
->
-
-
-- Revenue concentrated in top countries
-- Regional variation in refund rates and demand
-
-localized pricing, logistics, marketing
+<summary> <b>Click for details and figures</b></summary>
 
 >
 > <table width="100%">
@@ -275,14 +249,59 @@ localized pricing, logistics, marketing
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 6a.</b>  <b>6b.</b> 
+>       <b>Fig. 5a. Regional sales performance by revenue, order volume, and average order value (AOV). Inset shows the top country with highest revenue for North America (NA).</b>  <b>5b.</b>  Refund rate by region.
 ></td></tr>
 > </table>
 >
 
+**Fig. 5a** shows sales performance by revenue, order volume, and average order value. **North America (NA)** is the dominant regional market and it accounts for apporximately **67% of the total revenue**. **United States (US)** is the primary revenue driver, with **Canada (CA)** as a secondary market. Revenue within NA is heavily skewed towards the US (nine times higher than  CA). Howeve, NA also have relatively higher refund rate compared to other region (Fig. 5b), indicating potential inefficiencies in customer expectations and fulfillment process. This might be the reason impacting the net profitability
+
+>
+> <table width="100%">
+>   <tr>
+>     <td align="center" width="50%">
+>       <img src="images/countryperformance.png" width="100%"><br>
+>     </td>
+>     <td align="center" width="50%">
+>       <img src="images/countrypareto.png" width="100%"><br>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td colspan="2">
+>       <b>Fig. 6a.</b> Country level sales performance by revenue, order volume, and average order value (AOV). <b>6b.</b>  Pareto Analysis of Revenue contribution by country (with revenue >$10K).
+></td> </tr>
+> </table>
+>
+
+**Fig. 6a** shows that the United states alone contribute **57%** of the  total revenue significantly outperforming all other countries. Notably, the second largest market GB generates **6** times less revenue than the US. Pareto Analysis (Fig. 6b) shows that **top 14 countries contribute **89%** of the total revenue indicating strong geographic concentration. Japan ranks among the top revenue contributors and stands out with the **highest AOV (~$390)** suggesting strong purchasing power, high value customers, and high value market. Revenue is heavily concentrated in a small number of countries with US dominating volume and Japan representing a high value opportunity.
+
+</details>
+
+<details>
+  <summary> <b>Key Insights and Recommendations</b> </summary>
+
+**Key Insights**
+- **North America (NA)** is the primary revenue driver contributing **67%** of total revenue.
+- Revenue distribution is highly concetrated with top 14 countries generating **~89%** of total revenue. **US market (~57%)** outperforms other country by signifcant amount.
+- Japan stands out as **high AOV market** indicating high value potential.
+- Higher refund rate in NA suggest **potential operational or customer experience challenges**
 
 
-### Marketing Channel Performance
+**Recommendations**
+- Continue strategic investment in the US and expand targeted growth initiatives in UK, Canada and Japan.
+- Diversify revenue across regions by localize marketing, pricing and scaling in other countries.
+- Investigate main drivers of high refunds in North America and optimize product descriptions, sizing, and logistics to reduce return rates.
+- Position Japan and other high value markets for premium offerings to maximize AOV
+
+</details>
+
+
+
+### 4. Marketing and Operational
+<details>
+<summary> <b>Click for details and figures (in Progress)</b></summary>
+
+### 4. Marketing Channel Performance
 
 >
 > <table width="100%">
@@ -305,7 +324,7 @@ localized pricing, logistics, marketing
 
 optimize marketing ROI
 
-### Operational Performance
+### 5. Operational Performance
 
 >
 > <table width="100%">
