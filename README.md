@@ -109,7 +109,7 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
 
 
 ## Deeper Insights
-### 1. Product Performance Analysis
+### 1. Product Performance
 
 <details>
 <summary> <b>Click for details and figures</b></summary>
@@ -170,8 +170,8 @@ Since 2020, there is a notable shift to loyalty membership. Loyalty customers ha
   - **Missing refund data for 2022** . This represents **data quality issues** limting accurate performance evaluation, refund trend analysis and inventory planning.
 
  **Recommendations**
-- Priortitize on star products with targeted marketing, promotions, and inventory optimization as they are the primary revenue drivers.
-- **Fix refund problem** (<font color="red"><b>High Priority</b></font>) on premium products by conducting root cause analysis by reviewing return reasons, customer feedback, delivery issues and others.  Reducing refund rates will have a **direct positive impact on profitability.**
+- Priortitize on star products with targeted marketing, promotions, and inventory optimization as they are the revenue drivers.
+- **Fix refund problem** (<b>High Priority</b>) on premium products by conducting root cause analysis using information on return reasons, customer feedback, delivery issues and others.  Reducing refund rates will have a **direct positive impact on profitability.**
 - Monetize volume drivers by bundling accessories with high value products (e.g. monitors, laptops) to increase AOV.
 - **Reassess Bose soundport and iPhone** and decide on whether to improve their positioning and marketing  or phase out if performance does not improve.
 - **Resolve data gaps** by further investigation on missing refund data for 2022 as it limits visibility into product performance, refund analysis, inventory planning, and forecasting.
@@ -206,7 +206,7 @@ In contrast, non-loyalty revenue and AOV has fallen sharply toward the end of 20
 
 From mid 2022 onward, loyalty revenue began to decline, eventually falling below non-loyalty revenue by september 2022.  This reversal signals potential engagement fatigue, reduced program attractivenss, and post-pandemic market normalization. While the loyalty program proved effective in driving retention and value in 2021, sustaining engagement over time remains a challenge which will require continuous optimization.
 
-**Fig. 4b.** shows customer distibution by order frequency. There are high proportion (~94%) of one-time buyers.  This siginifies a significant retention gap. Out of the total one-time buyers, 51% are non-loyalty customers and remaining are loyalty. Across all order freuqency segments, non-loyalty customers dominate overall volume. Only 5.2%  of customers make a sceond purchase and a very small proportion reach 3+ orders. This all indicates that loyalty program has not yet effectively translated into strong repeat purchase behavior, highlighting an opportunity to improve lifecycle engagement.
+**Fig. 4b.** shows customer distibution by order frequency. There are high proportion (~94%) of one-time buyers.  This siginifies a significant retention gap. Out of the total one-time buyers, 51% are non-loyalty customers and remaining are loyalty. Non-loyalty customers dominate overall volume across all order frequency as well. Only 5.2%  of customers make a sceond purchase and a very small proportion reach 3+ orders. This all indicates that loyalty program has not yet effectively translated into strong repeat purchase behavior, highlighting an opportunity to improve customer engagement.
 
 </details>
 
@@ -217,18 +217,18 @@ From mid 2022 onward, loyalty revenue began to decline, eventually falling below
  **Key Insights**
  - Rapid acquisiton of non-loyalty customers in 2020 drove short term revenue growth
  - Loylatly program showed clear success in 2021 with improved AOV and retention
- - 2022 decline suggests waning engagment or insufficient program evolution.
+ - 2022 decline suggests insufficient program evolution resulting in poor customer engagement.
  - Extremely high share of one time buyers signals weak customer retention.
 
 
 **Recommendations**
 - Enhance loyalty value proposition by introducing exclusive perks like early access to bestsellers, member only drops, and personalized discounts.
-- Re-engage inactive loyalty members with lifecycle campaigns.
+- Re-engage inactive loyalty members with focused marketing campaigns.
 - Continuous monitoring of loyalty vs non-loyatly revenue, AOV trends and repeat purchase rates.
 - Stabilize  and grow AOV for loyalty members by bundling strategies or optimizing pricing and promotional strategies.
 
 
-While the available data is not sufficient to make a conclusive decision about loyalty program. The observed trends are clear which shows that loyalty program have strong potential but inconsistent performance. Long term success will depend on continuous iteration, personalization, and deeper integration into the customer journey. 
+While the **available data is not sufficient to make a conclusive decision about loyalty program**. The observed trends are clear which shows that **loyalty program have strong potential but inconsistent performance**. Long term success will depend on continuous iteration, personalization, and deeper integration into the customer journey. 
 </details>
 
 
@@ -249,12 +249,12 @@ While the available data is not sufficient to make a conclusive decision about l
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 5a. Regional sales performance by revenue, order volume, and average order value (AOV). Inset shows the top country with highest revenue for North America (NA).</b>  <b>5b.</b>  Refund rate by region.
+>       <b>Fig. 5a.</b> Regional sales performance by revenue, order volume, and average order value (AOV). Inset shows the top country with the highest revenue for North America (NA). <b>5b.</b>  Refund rate by region.
 ></td></tr>
 > </table>
 >
 
-**Fig. 5a** shows sales performance by revenue, order volume, and average order value. **North America (NA)** is the dominant regional market and it accounts for apporximately **67% of the total revenue**. **United States (US)** is the primary revenue driver, with **Canada (CA)** as a secondary market. Revenue within NA is heavily skewed towards the US (nine times higher than  CA). Howeve, NA also have relatively higher refund rate compared to other region (Fig. 5b), indicating potential inefficiencies in customer expectations and fulfillment process. This might be the reason impacting the net profitability
+**Fig. 5a** shows sales performance by revenue, order volume, and average order value. **North America (NA)** is the dominant regional market and it accounts for **~67% of the total revenue**. **United States (US)** is the primary revenue driver, with **Canada (CA)** as a secondary market in NA. Revenue within NA is heavily skewed towards the US (nine times higher than  CA). Howeve, NA also have relatively higher refund rate compared to other region (Fig. 5b), indicating potential inefficiencies in customer expectations and fulfillment process. This might be one of the reason impacting the net profitability.
 
 >
 > <table width="100%">
@@ -273,7 +273,7 @@ While the available data is not sufficient to make a conclusive decision about l
 > </table>
 >
 
-**Fig. 6a** shows that the United states alone contribute **57%** of the  total revenue significantly outperforming all other countries. Notably, the second largest market GB generates **6** times less revenue than the US. Pareto Analysis (Fig. 6b) shows that **top 14 countries contribute **89%** of the total revenue indicating strong geographic concentration. Japan ranks among the top revenue contributors and stands out with the **highest AOV (~$390)** suggesting strong purchasing power, high value customers, and high value market. Revenue is heavily concentrated in a small number of countries with US dominating volume and Japan representing a high value opportunity.
+**Fig. 6a** shows that the United states alone contribute **57%** of the  total revenue significantly outperforming all other countries. Notably, the second largest market GB generates **6** times less revenue than the US. **Fig. 6b** shows Pareto Analysis of Revenue contribution for countries with revenue greater than $10K. Pareto Analysis shows **top 14 countries contribute 89%** of the total revenue indicating strong geographic concentration. Japan ranks among the top revenue contributors and stands out with the **highest AOV (~$390)** suggesting strong purchasing power and high value customers. Overall, revenue is heavily concentrated in a small number of countries with US dominating volume and Japan representing a high value opportunity.
 
 </details>
 
@@ -283,7 +283,7 @@ While the available data is not sufficient to make a conclusive decision about l
 **Key Insights**
 - **North America (NA)** is the primary revenue driver contributing **67%** of total revenue.
 - Revenue distribution is highly concetrated with top 14 countries generating **~89%** of total revenue. **US market (~57%)** outperforms other country by signifcant amount.
-- Japan stands out as **high AOV market** indicating high value potential.
+- Japan, Korea and Indonesia stands out as **high AOV market (>$300)** indicating high value potential.
 - Higher refund rate in NA suggest **potential operational or customer experience challenges**
 
 
@@ -296,13 +296,10 @@ While the available data is not sufficient to make a conclusive decision about l
 </details>
 
 
-
-### 4. Marketing and Operational
-<details>
-<summary> <b>Click for details and figures (in Progress)</b></summary>
-
 ### 4. Marketing Channel Performance
 
+<details>
+<summary> <b>Click for details and figures (in Progress)</b></summary>
 >
 > <table width="100%">
 >   <tr>
@@ -315,17 +312,36 @@ While the available data is not sufficient to make a conclusive decision about l
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 8a.</b>  <b>8b.</b> 
+>       <b>Fig. 8a.</b> Marketing channel performance by revenue, order volume, and average order value (AOV). <b>8b. Refund rate by marketing channel.</b> 
 ></td></tr>
 > </table>
 >
 
-- channels vary in revenue contribution, refund rates
+**Fig. 8a** shows marketing channel performance by revenue, order volume, and average order value. The Direct marketing channel contributes  **~82% of the total revenue** and signficantly outperforms all other acquisition sources. The second largest channel is email and it only contributes **~12%** of the total revenue highlighting a highly concentrated acquisition strategy. There are also **unknown marketing** sources suggesting gaps in the data which will impact channel performance insights. 
 
-optimize marketing ROI
+**Fig. 8b** shows refund rates based on different marketing channels. Social media  shows the **highest refund rate (~7.7%)** despite low revenue contribution. Direct channel also has a **higher refund rate (~5.3%)**.
+</details>
+
+<details> 
+  <summary><b>Key Insights and Recommendations</b></summary>
+
+  **Key Insights**
+  - Revenue is **heavily dependent on the Direct channel (~82%)** which is a big risk in the long run
+  - Significant perormance gap between the first and second channels
+  - High refund rates in social media suggests expectation mismatches
+  - Presence of "Unknown" sources indicates data tracking and attribution issues
+
+  **Recommendations**
+  - Diversify acquisiton channels by investing in other sources and reducing over reliance on direct marketing channel.
+  - Fix "Unknown" channel classification by improving attribtuion and tracking
+  - Refine audience targeting with improved product specifications on social media to reduce refund rates
+
+</details>
 
 ### 5. Operational Performance
 
+<details>
+<summary> <b>Click for details and figures</b></summary>
 >
 > <table width="100%">
 >   <tr>
@@ -338,13 +354,31 @@ optimize marketing ROI
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 9a.</b>  <b>9b.</b> 
+>       <b>Fig. 9a</b> Revenue trends by delivery time Category (Premium $\le$ 4 days, Standard $le$ 8 days, and late $>$ 8 days).<b>9b</b> Delivery time distribution by order volume and refund rate.
 ></td></tr>
 > </table>
 >
 
-- Delivery delays impact customer experience. refund likelihood
+**Fig. 9a** shows revenue trends by delivery time. Standard delivery ($ \le 8$ days) contributes the larges share of revenue followed by premium delivery ($ \le 4$ days). There are still measurable revenue from late deliveries ($> 8$ days) indicating operational inefficiencies. 
 
-improve logistics consistency
+**Fig. 9b** shows delivery time distirbution with majority of orders fulfiiled within **4-7 days**. Approximately **5.6%** of the total orders experience late deliveries. There is no clear correlation between refund rate and delivery days. Standard delivery shows relatively higher refund rates and late deliveries surprisingly exhibit lower recorded refund rates. A significant portion of data is missing for 2022 which might have affected the observed relationships between delivery performance and refunds.
+
+
+</details>
+
+<details> 
+  <summary><b>Key Insights and Recommendations</b></summary>
+
+  **Key Insights**
+  - Standard delivery(4-8 days) is the **primary revenue driver** reflecting customer perference for balanced speed and cost
+  - A small but meaningful share of orders experience **delivery delays (>8 days)**
+  - No strong observable relationship between delivery times and refunds. This is most likely impacted by missing data
+  - Data gaps in 2022 limit the reliability of operational performance insights
+
+  **Recommendations**
+  - Optimize logistics and fulfillment process to reduce late deliveries
+  - Improve data qualtiy issues to enable accurate performance analysis
+  - Optimize standard delivery for cost efficiency and relaibility and promote premium delivery for customers requiring high speed delivery.
+
 
 </details>
