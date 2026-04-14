@@ -298,8 +298,10 @@ While the **available data is not sufficient to make a conclusive decision about
 
 ### 4. Marketing Channel Performance
 
+
 <details>
 <summary> <b>Click for details and figures (in Progress)</b></summary>
+
 >
 > <table width="100%">
 >   <tr>
@@ -342,6 +344,7 @@ While the **available data is not sufficient to make a conclusive decision about
 
 <details>
 <summary> <b>Click for details and figures</b></summary>
+
 >
 > <table width="100%">
 >   <tr>
@@ -354,12 +357,12 @@ While the **available data is not sufficient to make a conclusive decision about
 >   </tr>
 >   <tr>
 >     <td colspan="2">
->       <b>Fig. 9a</b> Revenue trends by delivery time Category (Premium $\le$ 4 days, Standard $le$ 8 days, and late $>$ 8 days).<b>9b</b> Delivery time distribution by order volume and refund rate.
+>       <b>Fig. 9a</b> Revenue trends by delivery time Category (Premium $\le 4$ days, Standard $\le 8$ days, and late $> 8$ days).<b>9b</b> Delivery time distribution by order volume and refund rate.
 ></td></tr>
 > </table>
 >
 
-**Fig. 9a** shows revenue trends by delivery time. Standard delivery ($ \le 8$ days) contributes the larges share of revenue followed by premium delivery ($ \le 4$ days). There are still measurable revenue from late deliveries ($> 8$ days) indicating operational inefficiencies. 
+**Fig. 9a** shows revenue trends by delivery time. Standard delivery ($\le 8$ days) contributes the larges share of revenue followed by premium delivery ($\le 4$ days). There are still measurable revenue from late deliveries ($> 8$ days) indicating operational inefficiencies. 
 
 **Fig. 9b** shows delivery time distirbution with majority of orders fulfiiled within **4-7 days**. Approximately **5.6%** of the total orders experience late deliveries. There is no clear correlation between refund rate and delivery days. Standard delivery shows relatively higher refund rates and late deliveries surprisingly exhibit lower recorded refund rates. A significant portion of data is missing for 2022 which might have affected the observed relationships between delivery performance and refunds.
 
